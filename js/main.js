@@ -53,10 +53,33 @@ jordanSubMenu.addEventListener("mouseover", ()=>{
 addEventListener("mouseout", ()=>{
     jordanSubMenu.setAttribute("class","jordanSubMenu")
 })
-
-
-
-
+const menuButton = document.getElementById("menuButton")
+const rightMenu = document.getElementById("rightMenu")
+menuButton.addEventListener("click", ()=>{
+    let winHeight = window.innerHeight
+    rightMenu.style.maxHeight = `${winHeight}px`
+    rightMenu.style.right = `0`
+})
+const exitButton = document.getElementById("exitButton")
+exitButton.addEventListener("click", ()=>{
+    setTimeout(()=>{
+        rightMenu.style.right = `-100%`
+    },300)
+})
+// const heartIcon = document.getElementById("heart-icon")
+// let innerWidth = window.innerWidth
+// while (innerWidth <= "992"){
+//     if (heartIcon.getAttribute('src') === "./src/images/heart-icon.svg"){
+//         heartIcon.setAttribute('src', "./src/images/contactIcon.svg")
+//         break
+//     }
+// }
+// while (innerWidth > "992"){
+//     if (heartIcon.getAttribute('src') === "./src/images/contactIcon.svg"){
+//         heartIcon.setAttribute('src', "./src/images/heart-icon.svg")
+//         break
+//     }
+// }
 
 
 
