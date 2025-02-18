@@ -8,5 +8,8 @@
     --text-color: #111111;
     --bg-color: #fff;
     --text-hover: #707072;
-    --bg-color-hover: #E5E5E5;
+    --bg-color-hover: #e5e5e5;
+}
+body{
+    background-color: #fff!important;
 }

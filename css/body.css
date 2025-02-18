@@ -1,0 +1,1952 @@
+@media (min-width: 1200px){
+    main.main{
+        width: 100%;
+        z-index: -1;
+    }
+    main.main>section.mainSlider{
+        width: 100%;
+        min-height: 450px;
+        max-height: 714px;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo{
+        width: inherit;
+        max-height: 714px;
+        z-index: -2;
+        position: relative;
+        top: 0;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        object-fit: contain;
+        object-position: center top;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video>source{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo>img{
+        display: none;
+    }
+    main.main>section.mainTitle{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle>div.titleTexts{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.miniTitle{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 14px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.bigTitle{
+        width: 100%;
+        height: 60px;
+        font-size: 75px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.learnBtn{
+        width: 105px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainPic{
+        width: 100%;
+        height: 1318px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div{
+        width: 100%;
+        height: 1320px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div>div{
+        width: 50%;
+        height: 50%;
+    }
+    main.main>section.mainPic>div>div>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    main.main>section.mainPic>div>div.mainPics1{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn{
+        width: 70px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn:hover{
+        background-color: #bbbbbd;
+    }
+    main.main>section.mainPic>div>div.mainPics2{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+
+    main.main>section.mainTitle2{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle2>div.titleTexts2{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 14px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.bigTitle2{
+        width: 100%;
+        height: 60px;
+        font-size: 55px;
+        font-weight: 850;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainBigPic{
+        width: 100%;
+        min-height: 500px;
+        max-height: 1000px;
+    }
+    main.main>section.mainBigPic>div.picSize{
+        width: inherit;
+        min-height: inherit;
+        max-height: inherit;
+    }
+    main.main>section.mainBigPic>div.picSize>img{
+        width: inherit;
+        height: inherit;
+        object-fit: contain;
+    }
+
+    main.main>section.mainSwiper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main.main>section.mainSwiper>div.swiperTitle{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 60px;
+        font-weight: 850;
+    }
+    main.main>section.mainSwiper>div.swiper>div.swiper-wrapper>div.swiper-slide>div.slideText{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        line-height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.miniMenu{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.nikeIcon{
+        width: 80px;
+        height: 30%;
+        background: url("./../src/images/nike-logo.png") center center no-repeat;
+        background-size: contain;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a:nth-of-type(1){
+        width: 100px;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a{
+        width: 85px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 550;
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a:hover{
+        color: var(--text-hover);
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu{
+        width: 95%;
+        height: 350px;
+        margin: 0 auto;
+        border-bottom: 1px var(--text-hover) solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid{
+        width: 880px;
+        display: grid;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4{
+        font-size: 24px!important;
+        width: 220px;
+        height: 50px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div{
+        width: 220px;
+        height: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li.gridNone{
+        display: none;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        font-weight: 600;
+        color: var(--text-hover);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a:hover{
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+    main.main{
+        width: 100%;
+        z-index: -1;
+    }
+    main.main>section.mainSlider{
+        width: 100%;
+        min-height: 360px;
+        max-height: 714px;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo{
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        position: relative;
+        top: 0;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        object-fit: contain;
+        object-position: center top;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video>source{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo>img{
+        display: none;
+    }
+    main.main>section.mainTitle{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle>div.titleTexts{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.miniTitle{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 14px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.bigTitle{
+        width: 100%;
+        height: 60px;
+        font-size: 60px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.learnBtn{
+        width: 105px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainPic{
+        width: 100%;
+        height: 1318px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div{
+        width: 100%;
+        height: 1320px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div>div{
+        width: 50%;
+        height: 50%;
+    }
+    main.main>section.mainPic>div>div>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    main.main>section.mainPic>div>div.mainPics1{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn{
+        width: 70px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn:hover{
+        background-color: #bbbbbd;
+    }
+    main.main>section.mainPic>div>div.mainPics2{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 22px;
+        color: var(--bg-color);
+    }
+
+    main.main>section.mainTitle2{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle2>div.titleTexts2{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 14px;
+        color: var(--text-color);
+        font-weight: 600;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2:nth-of-type(1){
+        align-items: flex-end;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.bigTitle2{
+        width: 100%;
+        height: 60px;
+        font-size: 45px;
+        font-weight: 850;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainBigPic{
+        width: 100%;
+        min-height: 500px;
+        max-height: 1000px;
+    }
+    main.main>section.mainBigPic>div.picSize{
+        width: inherit;
+        min-height: inherit;
+        max-height: inherit;
+    }
+    main.main>section.mainBigPic>div.picSize>img{
+        width: inherit;
+        height: inherit;
+        object-fit: contain;
+    }
+
+    main.main>section.mainSwiper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main.main>section.mainSwiper>div.swiperTitle{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 45px;
+        font-weight: 850;
+    }
+    main.main>section.mainSwiper>div.swiper>div.swiper-wrapper>div.swiper-slide>div.slideText{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        line-height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.miniMenu{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.nikeIcon{
+        width: 80px;
+        height: 30%;
+        background: url("./../src/images/nike-logo.png") center center no-repeat;
+        background-size: contain;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a{
+        width: 85px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 550;
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a:hover{
+        color: var(--text-hover);
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu{
+        width: 95%;
+        height: 350px;
+        margin: 0 auto;
+        border-bottom: 1px var(--text-hover) solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid{
+        width: 880px;
+        display: grid;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4{
+        font-size: 24px!important;
+        width: 220px;
+        height: 50px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div{
+        width: 220px;
+        height: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li.gridNone{
+        display: none;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        font-weight: 600;
+        color: var(--text-hover);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a:hover{
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+}
+@media (min-width: 600px) and (max-width: 960px) {
+    main.main{
+        width: 100%;
+        z-index: -1;
+    }
+    main.main>section.mainSlider{
+        width: 100%;
+        min-height: 225px;
+        max-height: 714px;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo{
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        position: relative;
+        top: 0;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        object-fit: contain;
+        object-position: center top;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video>source{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo>img{
+        display: none;
+    }
+    main.main>section.mainTitle{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle>div.titleTexts{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.miniTitle{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 12px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.bigTitle{
+        width: 100%;
+        height: 60px;
+        font-size: 39px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.learnBtn{
+        width: 105px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainPic{
+        width: 100%;
+        height: 2640px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div{
+        width: 100%;
+        height: 1320px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div>div{
+        width: 100%;
+        height: 50%;
+    }
+    main.main>section.mainPic>div>div>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    main.main>section.mainPic>div>div.mainPics1{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn{
+        width: 70px;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn:hover{
+        background-color: #bbbbbd;
+    }
+    main.main>section.mainPic>div>div.mainPics2{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 40px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 28px;
+        color: var(--bg-color);
+    }
+
+    main.main>section.mainTitle2{
+        width: 100%;
+        height: 250px;
+        display: flex;
+    }
+    main.main>section.mainTitle2>div.titleTexts2{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        font-size: 12px;
+        color: var(--text-color);
+        font-weight: 600;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2:nth-of-type(1){
+        align-items: flex-end;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.bigTitle2{
+        width: 100%;
+        height: 60px;
+        font-size: 39px;
+        font-weight: 850;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns>button.shopBtn{
+        width: 65px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    main.main>section.mainBigPic{
+        width: 100%;
+        min-height: 200px;
+        max-height: 410px;
+    }
+    main.main>section.mainBigPic>div.picSize{
+        width: inherit;
+        min-height: inherit;
+        max-height: inherit;
+    }
+    main.main>section.mainBigPic>div.picSize>img{
+        width: inherit;
+        height: inherit;
+        object-fit: contain;
+    }
+
+    main.main>section.mainSwiper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main.main>section.mainSwiper>div.swiperTitle{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 45px;
+        font-weight: 850;
+    }
+    main.main>section.mainSwiper>div.swiper>div.swiper-wrapper>div.swiper-slide>div.slideText{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        line-height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    div.swiper-button-prev:before{
+        left: 60px !important;
+    }
+    div.swiper-button-next:before{
+        right: 60px !important;
+    }
+    main.main>section.miniMenu{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.nikeIcon{
+        width: 80px;
+        height: 30%;
+        background: url("./../src/images/nike-logo.png") center center no-repeat;
+        background-size: contain;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a{
+        width: 85px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 550;
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a:hover{
+        color: var(--text-hover);
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu{
+        width: 95%;
+        height: 350px;
+        margin: 0 auto;
+        border-bottom: 1px var(--text-hover) solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid{
+        width: 95%;
+        display: grid;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4{
+        font-size: 24px!important;
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div{
+        width: 100%;
+        height: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(2){
+        grid-column: 2;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(3){
+        grid-column: 3;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 1;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div:nth-of-type(4){
+        grid-column: 4;
+        grid-row: 2;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li.gridNone{
+        display: none;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        font-weight: 600;
+        color: var(--text-hover);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a:hover{
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+}
+@media (max-width: 599px) {
+    main.main{
+        width: 100%;
+        z-index: -1;
+    }
+    main.main>section.mainSlider{
+        width: 100%;
+        min-height: 450px;
+        max-height: 725px;
+        z-index: -2;
+    }
+    main.main>section.mainSlider>div.sliderVideo{
+        width: inherit;
+        max-height: 714px;
+        z-index: -2;
+        position: relative;
+        top: 0;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video{
+        display: none;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        object-fit: contain;
+        object-position: center top;
+    }
+    main.main>section.mainSlider>div.sliderVideo>video>source{
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+        display: none;
+    }
+    main.main>section.mainSlider>div.sliderVideo>img{
+        display: flex;
+        width: inherit;
+        height: inherit;
+        z-index: -2;
+    }
+    main.main>section.mainTitle{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.miniTitle{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        font-size: 10px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.bigTitle{
+        width: 100%;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.shopBtn{
+        width: 60px;
+        height: 25px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    main.main>section.mainTitle>div.titleTexts>div.titleBtns>button.learnBtn{
+        width: 95px;
+        height: 25px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    main.main>section.mainPic{
+        width: 100%;
+        height: 2640px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div{
+        width: 100%;
+        height: 1320px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    main.main>section.mainPic>div>div{
+        width: 100%;
+        height: 50%;
+    }
+    main.main>section.mainPic>div>div>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    main.main>section.mainPic>div>div.mainPics1{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 25px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn{
+        width: 60px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    main.main>section.mainPic>div>div>div>button.picBtn:hover{
+        background-color: #bbbbbd;
+    }
+    main.main>section.mainPic>div>div.mainPics2{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 25px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.mainPic>div>div.mainPics3{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics3>img{
+        object-position: left center;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 25px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.mainPic>div>div.mainPics4{
+        position: relative;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        left: 0;
+        bottom: 0;
+        padding: 30px 0 0 25px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+        width: 100%;
+        height: 20px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--bg-color);
+    }
+    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    main.main>section.mainTitle2{
+        width: 100%;
+        height: 200px;
+        display: flex;
+    }
+    main.main>section.mainTitle2>div.titleTexts2{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        font-size: 10px;
+        color: var(--text-color);
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.miniTitle2:nth-of-type(1){
+        align-items: flex-end;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.bigTitle2{
+        width: 100%;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 850;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.mainTitle2>div.titleTexts2>div.titleBtns>button.shopBtn{
+        width: 60px;
+        height: 25px;
+        border: none;
+        outline: none;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-radius: 35px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    main.main>section.mainBigPic{
+        width: 100%;
+        height: 500px;
+    }
+    main.main>section.mainBigPic>div.picSize{
+        width: inherit;
+        height: inherit;
+    }
+    main.main>section.mainBigPic>div.picSize>img{
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    main.main>section.mainSwiper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main.main>section.mainSwiper>div.swiperTitle{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 45px;
+        font-weight: 850;
+    }
+    main.main>section.mainSwiper>div.swiper>div.swiper-wrapper>div.swiper-slide>div.slideText{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        line-height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        color: var(--bg-color);
+        font-weight: 600;
+    }
+    div.swiper-button-prev:before{
+        display: none;
+    }
+    div.swiper-button-next:before{
+        display: none;
+    }
+
+    main.main>section.miniMenu{
+        width: 100%;
+        min-height: 650px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu{
+        width: 100%;
+        height: 292px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.nikeIcon{
+        width: 80px;
+        height: 88px;
+        background: url("./../src/images/nike-logo.png") center center no-repeat;
+        background-size: contain;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu{
+        width: 100%;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a{
+        width: 85px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 550;
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeTopMenu>div.iconMenu>a:hover{
+        color: var(--text-hover);
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu{
+        width: 95%;
+        min-height: 350px;
+        margin: 0 auto;
+        border-bottom: 1px var(--text-hover) solid;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 150px;
+        box-sizing: border-box;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>h4{
+        font-size: 20px!important;
+        width: 100%;
+        height: 50px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div{
+        width: 100%;
+        /*min-height: 0;*/
+        max-height: 0;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all 250ms linear;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        font-weight: 600;
+        color: var(--text-hover);
+        transition: all 100ms linear;
+    }
+    main.main>section.miniMenu>div.nikeBottomMenu>div.menuGrid>div>ul>li>a:hover{
+        color: var(--text-color);
+        transition: all 100ms linear;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
