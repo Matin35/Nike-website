@@ -1,6 +1,7 @@
-@import "./header.css";
 @import "./setting.css";
+@import "./header.css";
 @import "./body.css";
+@import "./footer.css";
 @import "./swiper.css";
 @media (min-width: 1200px){}
 @media (min-width: 992px) and (max-width: 1200px) {}

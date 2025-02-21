@@ -1,0 +1,713 @@
+@media (min-width: 1200px){
+    footer.footer{
+        width: 100%;
+        height: 580px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter{
+        width: 100%;
+        height: 310px;
+        display: flex;
+    }
+    footer.footer>div.topFooter>ul{
+        width: 80%;
+        height: 310px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li{
+        width: 25%;
+        height: 100%;
+    }
+    footer.footer>div.topFooter>ul>li>h4{
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer.footer>div.topFooter>ul>li>div{
+        width: 100%;
+        height: 260px;
+    }
+    footer.footer>div.topFooter>ul>li>div>div{
+        width: 100%;
+        height: 260px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    footer.footer>div.topFooter>ul>li>div>div>a{
+        height: 35px;
+        color: var(--text-hover);
+        font-weight: 600;
+    }
+    footer.footer>div.topFooter>div.langBtn{
+        width: 20%;
+        height: 310px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>div.langBtn>button{
+        height: 16px;
+        display: flex;
+        border: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: transparent;
+        color: var(--text-color);
+    }
+    footer.footer>div.topFooter>div.langBtn>button>span.langIcon{
+        width: 16px;
+        height: 16px;
+        background: url("./../src/images/languageIcon.svg") center center no-repeat;
+        background-size: contain;
+        margin-right: 5px;
+    }
+    footer.footer>div.bottomFooter{
+        width: 100%;
+        height: 170px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul{
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        gap: 30px;
+        font-weight: 600;
+    }
+    footer.footer>div.bottomFooter>ul>li{
+        color: var(--text-hover);
+        height: 22px;
+        line-height: 22px;
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        color: var(--text-hover);
+    }
+    footer.footer>div.bottomFooter>ul>li.guideHover{
+        position: relative;
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>div.footerMenu{
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu{
+        width: 200px;
+        height: 350px;
+        display: none;
+        background-color: var(--bg-color);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border: 1px var(--bg-color-hover) solid;
+        box-shadow: 0 0 10px var(--bg-color-hover);
+        border-radius: 8px;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: var(--text-hover);
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a:hover{
+        background-color: var(--bg-color-hover);
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>a:hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>span.bottomIcon{
+        width: 20px;
+        height: 20px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+        background-size: contain;
+    }
+    footer.footer>div.bottomFooter>ul>li>a>span.privacyIcon{
+        width: 28px;
+        height: 22px;
+        background: url("./../src/images/privacy.png") center center no-repeat;
+        background-size: contain;
+    }
+}
+@media (min-width: 960px) and (max-width: 1200px){
+    footer.footer{
+        width: 100%;
+        height: 580px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter{
+        width: 100%;
+        height: 310px;
+        display: flex;
+    }
+    footer.footer>div.topFooter>ul{
+        width: 80%;
+        height: 310px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li{
+        width: 25%;
+        height: 100%;
+    }
+    footer.footer>div.topFooter>ul>li>h4{
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer.footer>div.topFooter>ul>li>div{
+        width: 100%;
+        height: 260px;
+    }
+    footer.footer>div.topFooter>ul>li>div>div{
+        width: 100%;
+        height: 260px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    footer.footer>div.topFooter>ul>li>div>div>a{
+        height: 35px;
+        color: var(--text-hover);
+        font-weight: 600;
+    }
+    footer.footer>div.topFooter>div.langBtn{
+        width: 20%;
+        height: 310px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>div.langBtn>button{
+        height: 16px;
+        display: flex;
+        border: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: transparent;
+        color: var(--text-color);
+    }
+    footer.footer>div.topFooter>div.langBtn>button>span.langIcon{
+        width: 16px;
+        height: 16px;
+        background: url("./../src/images/languageIcon.svg") center center no-repeat;
+        background-size: contain;
+        margin-right: 5px;
+    }
+    footer.footer>div.bottomFooter{
+        width: 100%;
+        height: 170px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul{
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        gap: 30px;
+        font-weight: 600;
+    }
+    footer.footer>div.bottomFooter>ul>li{
+        color: var(--text-hover);
+        height: 22px;
+        line-height: 22px;
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        color: var(--text-hover);
+    }
+    footer.footer>div.bottomFooter>ul>li.guideHover{
+        position: relative;
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>div.footerMenu{
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu{
+        width: 200px;
+        height: 350px;
+        display: none;
+        background-color: var(--bg-color);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border: 1px var(--bg-color-hover) solid;
+        box-shadow: 0 0 10px var(--bg-color-hover);
+        border-radius: 8px;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: var(--text-hover);
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a:hover{
+        background-color: var(--bg-color-hover);
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>a:hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>span.bottomIcon{
+        width: 20px;
+        height: 20px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+        background-size: contain;
+    }
+    footer.footer>div.bottomFooter>ul>li>a>span.privacyIcon{
+        width: 28px;
+        height: 22px;
+        background: url("./../src/images/privacy.png") center center no-repeat;
+        background-size: contain;
+    }
+}
+@media (min-width: 600px) and (max-width: 959px){
+    footer.footer{
+        width: 100%;
+        min-height: 900px;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter{
+        width: 100%;
+        min-height: 360px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    footer.footer>div.topFooter>ul{
+        width: 92%;
+        min-height: 288px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    footer.footer>div.topFooter>ul>li{
+        width: 100%;
+        min-height: 72px;
+        border-bottom: 1px var(--bg-color-hover) solid;
+    }
+    footer.footer>div.topFooter>ul>li>h4{
+        width: 100%;
+        min-height: 72px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer.footer>div.topFooter>ul>li>h4>span.titleBottomIcon{
+        width: 24px;
+        height: 24px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+    }
+    footer.footer>div.topFooter>ul>li>div{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li>div>div{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuResources>div{
+        height: 150px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuHelp>div{
+        height: 270px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuCompany>div{
+        height: 250px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuPromotion>div{
+        height: 190px;
+    }
+    footer.footer>div.topFooter>ul>li>div>div>a{
+        height: 35px;
+        color: var(--text-hover);
+        font-weight: 600;
+    }
+    footer.footer>div.topFooter>div.langBtn{
+        width: 92%;
+        height: 72px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px var(--bg-color-hover) solid;
+    }
+    footer.footer>div.topFooter>div.langBtn>button{
+        height: 16px;
+        display: flex;
+        border: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: transparent;
+        color: var(--text-color);
+    }
+    footer.footer>div.topFooter>div.langBtn>button>span.langIcon{
+        width: 16px;
+        height: 16px;
+        background: url("./../src/images/languageIcon.svg") center center no-repeat;
+        background-size: contain;
+        margin-right: 5px;
+    }
+    footer.footer>div.bottomFooter{
+        width: 100%;
+        height: 270px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        gap: 10px;
+        font-weight: 600;
+    }
+    footer.footer>div.bottomFooter>ul>li{
+        color: var(--text-hover);
+        height: 22px;
+        line-height: 22px;
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        color: var(--text-hover);
+    }
+    footer.footer>div.bottomFooter>ul>li.guideHover{
+        position: relative;
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>span{
+        transform: rotate(180deg);
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>div.footerMenu{
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu{
+        width: 200px;
+        height: 350px;
+        display: none;
+        background-color: var(--bg-color);
+        position: absolute;
+        bottom: 22px;
+        left: 0;
+        border: 1px var(--bg-color-hover) solid;
+        box-shadow: 0 0 10px var(--bg-color-hover);
+        border-radius: 8px;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: var(--text-hover);
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a:hover{
+        background-color: var(--bg-color-hover);
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>a:hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li:nth-of-type(2):hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>span.bottomIcon{
+        width: 20px;
+        height: 20px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+        background-size: contain;
+    }
+    footer.footer>div.bottomFooter>ul>li>a>span.privacyIcon{
+        width: 28px;
+        height: 22px;
+        background: url("./../src/images/privacy.png") center center no-repeat;
+        background-size: contain;
+    }
+}
+@media (max-width: 599px){
+    footer.footer{
+        width: 100%;
+        min-height: 900px;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter{
+        width: 100%;
+        min-height: 360px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    footer.footer>div.topFooter>ul{
+        width: 92%;
+        min-height: 288px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    footer.footer>div.topFooter>ul>li{
+        width: 100%;
+        min-height: 72px;
+        border-bottom: 1px var(--bg-color-hover) solid;
+    }
+    footer.footer>div.topFooter>ul>li>h4{
+        width: 100%;
+        min-height: 72px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer.footer>div.topFooter>ul>li>h4>span.titleBottomIcon{
+        width: 24px;
+        height: 24px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+    }
+    footer.footer>div.topFooter>ul>li>div{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li>div>div{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuResources>div{
+        height: 150px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuHelp>div{
+        height: 270px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuCompany>div{
+        height: 250px;
+    }
+    footer.footer>div.topFooter>ul>li>div#menuPromotion>div{
+        height: 190px;
+    }
+    footer.footer>div.topFooter>ul>li>div>div>a{
+        height: 35px;
+        color: var(--text-hover);
+        font-weight: 600;
+    }
+    footer.footer>div.topFooter>div.langBtn{
+        width: 92%;
+        height: 72px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px var(--bg-color-hover) solid;
+    }
+    footer.footer>div.topFooter>div.langBtn>button{
+        height: 16px;
+        display: flex;
+        border: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: transparent;
+        color: var(--text-color);
+    }
+    footer.footer>div.topFooter>div.langBtn>button>span.langIcon{
+        width: 16px;
+        height: 16px;
+        background: url("./../src/images/languageIcon.svg") center center no-repeat;
+        background-size: contain;
+        margin-right: 5px;
+    }
+    footer.footer>div.bottomFooter{
+        width: 100%;
+        height: 270px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        gap: 10px;
+        font-weight: 600;
+    }
+    footer.footer>div.bottomFooter>ul>li{
+        color: var(--text-hover);
+        height: 22px;
+        line-height: 22px;
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        color: var(--text-hover);
+    }
+    footer.footer>div.bottomFooter>ul>li.guideHover{
+        position: relative;
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>span{
+        transform: rotate(180deg);
+    }
+    footer.footer>div.bottomFooter>ul>li:hover>div.footerMenu{
+        display: flex;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu{
+        width: 200px;
+        height: 350px;
+        display: none;
+        background-color: var(--bg-color);
+        position: absolute;
+        bottom: 22px;
+        left: 0;
+        border: 1px var(--bg-color-hover) solid;
+        box-shadow: 0 0 10px var(--bg-color-hover);
+        border-radius: 8px;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px 0 10px 0;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li{
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: var(--text-hover);
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    footer.footer>div.bottomFooter>ul>li>div.footerMenu>ul>li>a:hover{
+        background-color: var(--bg-color-hover);
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>a:hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li:nth-of-type(2):hover{
+        color: var(--text-color);
+    }
+    footer.footer>div.bottomFooter>ul>li>span.bottomIcon{
+        width: 20px;
+        height: 20px;
+        background: url("./../src/images/bottomMenu.svg") center center no-repeat;
+        background-size: contain;
+    }
+    footer.footer>div.bottomFooter>ul>li>a>span.privacyIcon{
+        width: 28px;
+        height: 22px;
+        background: url("./../src/images/privacy.png") center center no-repeat;
+        background-size: contain;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -153,3 +153,90 @@ kidBtn.addEventListener("click", ()=>{
 
 
 
+
+
+
+const resourcesBtn = document.getElementById("resourcesBtn")
+const menuResources = document.getElementById("menuResources")
+resourcesBtn.addEventListener("click", ()=>{
+    if (window.innerWidth < 960){
+        if (menuResources.style.maxHeight === "150px"){
+            menuResources.style.maxHeight = "0"
+        }else{
+            menuResources.style.maxHeight = "150px"
+        }
+    }
+})
+
+const helpBtn = document.getElementById("helpBtn")
+const menuHelp = document.getElementById("menuHelp")
+helpBtn.addEventListener("click", ()=>{
+    if (window.innerWidth < 960){
+        if (menuHelp.style.maxHeight === "270px"){
+            menuHelp.style.maxHeight = "0"
+        }else{
+            menuHelp.style.maxHeight = "270px"
+        }
+    }
+})
+
+
+
+
+
+const companyBtn = document.getElementById("companyBtn")
+const menuCompany = document.getElementById("menuCompany")
+companyBtn.addEventListener("click", ()=>{
+    if (window.innerWidth < 960){
+        if (menuCompany.style.maxHeight === "250px"){
+            menuCompany.style.maxHeight = "0"
+        }else{
+            menuCompany.style.maxHeight = "250px"
+        }
+    }
+})
+
+
+
+
+
+const promotionBtn = document.getElementById("promotionBtn")
+const menuPromotion = document.getElementById("menuPromotion")
+promotionBtn.addEventListener("click", ()=>{
+    if (window.innerWidth < 960){
+        if (menuPromotion.style.maxHeight === "190px"){
+            menuPromotion.style.maxHeight = "0"
+        }else{
+            menuPromotion.style.maxHeight = "190px"
+        }
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
