@@ -114,7 +114,6 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        z-index: -100;
     }
     main.main>section.mainPic>div>div{
         width: 50%;
@@ -126,10 +125,10 @@
         object-fit: cover;
         object-position: center center;
     }
-    main.main>section.mainPic>div>div.mainPics1{
+    main.main>section.mainPic>div>div.mainPics{
         position: relative;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -139,7 +138,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -147,7 +146,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -170,10 +169,7 @@
     main.main>section.mainPic>div>div>div>button.picBtn:hover{
         background-color: #bbbbbd;
     }
-    main.main>section.mainPic>div>div.mainPics2{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -183,7 +179,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -191,17 +187,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 28px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -211,7 +204,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -219,17 +212,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 28px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -239,7 +229,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -247,7 +237,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -603,7 +593,6 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        z-index: -100;
     }
     main.main>section.mainPic>div>div{
         width: 50%;

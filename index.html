@@ -358,11 +358,8 @@
 </header>
 <main class="main">
     <section class="mainSlider">
-        <div class="sliderVideo">
-            <video autoplay loop muted>
-                <source src="./src/videos/Nike.%20Just%20Do%20It.%20Nike.com.mp4" type="video/mp4">
-            </video>
-            <img src="./src/images/mainPicMobile.jpg" alt="">
+        <div id="topSlider" class="sliderVideo">
+
         </div>
     </section>
     <section class="mainTitle">
@@ -383,39 +380,8 @@
         </div>
     </section>
     <section class="mainPic">
-        <div>
-            <div class="mainPics1">
-                <img src="./src/images/nike-just-do-it.jpg" alt="Nike">
-                <div class="picBtn1">
-                    <div class="miniText">Run Ready</div>
-                    <div class="bigText">Essentials for Every Mile</div>
-                    <button class="picBtn">Shop</button>
-                </div>
-            </div>
-            <div class="mainPics2">
-                <img src="./src/images/nike-just-do-it%20(1).jpg" alt="Nike">
-                <div class="picBtn2">
-                    <div class="miniText">Get Comfortable With Winning</div>
-                    <div class="bigText">Nike Bras</div>
-                    <button class="picBtn">Shop</button>
-                </div>
-            </div>
-            <div class="mainPics3">
-                <img src="./src/images/nike-just-do-it%20(2).jpg" alt="Nike">
-                <div class="picBtn3">
-                    <div class="miniText">Nothing Beats the C1TY</div>
-                    <div class="bigText">Nike C1TY</div>
-                    <button class="picBtn">Shop</button>
-                </div>
-            </div>
-            <div class="mainPics4">
-                <img src="./src/images/nike-just-do-it%20(3).jpg" alt="Nike">
-                <div class="picBtn4">
-                    <div class="miniText">Cosmic Runner</div>
-                    <div class="bigText">Redefining Running for the Next Generation</div>
-                    <button class="picBtn">Shop</button>
-                </div>
-            </div>
+        <div id="posts">
+
         </div>
     </section>
     <section class="mainTitle2">
@@ -435,8 +401,8 @@
         </div>
     </section>
     <section class="mainBigPic">
-        <div class="picSize">
-            <img src="./src/images/main-pic.png" alt="Nike pic">
+        <div id="bigSlide" class="picSize">
+
         </div>
     </section>
     <section class="mainSwiper">
@@ -444,43 +410,8 @@
             SHOP BY CLASSICS
         </div>
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes3.png" alt="">
-                    <div class="slideText">
-                        Air Jordan 1
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes2.png" alt="">
-                    <div class="slideText">
-                        Dunk
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes.png" alt="">
-                    <div class="slideText">
-                        Blazer
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes3.png" alt="">
-                    <div class="slideText">
-                        Air Jordan 1
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes2.png" alt="">
-                    <div class="slideText">
-                        Dunk
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./src/images/swiperShoes.png" alt="">
-                    <div class="slideText">
-                        Blazer
-                    </div>
-                </div>
+            <div id="swiperSlides" class="swiper-wrapper">
+
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -653,31 +584,7 @@
 </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="./axios/dist/axios.min.js"></script>
 <script src="./js/main.js"></script>
 <script src="./swiper/swiper-bundle.min.js"></script>
 <script>
@@ -685,6 +592,7 @@
         slidesPerView: 5,
         spaceBetween: 15,
         loop: true,
+        initialSlide:3,
         centeredSlides: true,
         pagination: {
             el: ".swiper-pagination",

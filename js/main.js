@@ -214,12 +214,61 @@ promotionBtn.addEventListener("click", ()=>{
 
 
 
+const topSlider = document.getElementById("topSlider")
+axios.get('http://localhost:3000/topSlider').then((res)=>{
+    let data = res.data;
+    let html= "";
+    html += data.map((item) => {
+        return `<video autoplay loop muted>
+                <source src="${item.vidUrl}" type="video/mp4">
+            </video>
+            <img src="${item.picUrl}" alt="Nike">`
+    }).join("")
+    topSlider.innerHTML = html;
+})
+
+const category = document.getElementById("posts")
+axios.get('http://localhost:3000/category').then((res)=>{
+    let data = res.data;
+    let html= "";
+    html += data.map((item) => {
+        return `<div class="mainPics">
+                <img src="${item.url}" alt="Nike">
+                <div class="picBtns">
+                    <div class="miniText">${item.title}</div>
+                    <div class="bigText">${item.des}</div>
+                    <button class="picBtn">Shop</button>
+                </div>
+            </div>`
+    }).join("")
+    category.innerHTML = html;
+})
+
+const bigSlide = document.getElementById("bigSlide")
+axios.get('http://localhost:3000/bigSlider').then((res)=>{
+    let data = res.data;
+    let html= "";
+    html += data.map((item) => {
+        return `<img src="${item.url}" alt="Nike pic">`
+    }).join("")
+    bigSlide.innerHTML = html;
+})
 
 
-
-
-
-
+const swiperSlides = document.getElementById("swiperSlides")
+axios.get('http://localhost:3000/swiperSlides').then((res)=>{
+    let data = res.data;
+    let html= "";
+    html += data.map((item)=>{
+        return `<div class="swiper-slide">
+                    <img src="${item.url}" alt="">
+                    <div class="slideText">
+                        ${item.title}
+                    </div>
+                </div>`
+    }).join("")
+    swiperSlides.innerHTML = html;
+})
 
 
 

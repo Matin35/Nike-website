@@ -1,0 +1,76 @@
+{
+  "topSlider" : [
+    {
+      "vidUrl": "./src/videos/Nike.%20Just%20Do%20It.%20Nike.com.mp4",
+      "picUrl": "./src/images/mainPicMobile.jpg"
+    }
+  ],
+
+  "category" : [
+    {
+      "title": "Run Ready",
+      "des": "Essentials for Every Mile",
+      "url": "./src/images/nike-just-do-it.jpg"
+    },
+    {
+      "title": "Get Comfortable With Winning",
+      "des": "Nike Bras",
+      "url": "./src/images/nike-just-do-it%20(1).jpg"
+    },
+    {
+      "title": "Nothing Beats the C1TY",
+      "des": "Nike C1TY",
+      "url": "./src/images/nike-just-do-it%20(2).jpg"
+    },
+    {
+      "title": "Cosmic Runner",
+      "des": "Redefining Running for the Next Generation",
+      "url": "./src/images/nike-just-do-it%20(3).jpg"
+    }
+  ],
+
+  "bigSlider" : [
+    {
+      "url": "./src/images/main-pic.png"
+    }
+  ],
+
+  "swiperSlides" : [
+    {
+      "title": "Air Jordan 1",
+      "url": "./src/images/swiperShoes3.png"
+    },
+    {
+      "title": "Dunk",
+      "url": "./src/images/swiperShoes2.png"
+    },
+    {
+      "title": "Blazer",
+      "url": "./src/images/swiperShoes.png"
+    },
+    {
+      "title": "Air Jordan 1",
+      "url": "./src/images/swiperShoes3.png"
+    },
+    {
+      "title": "Dunk",
+      "url": "./src/images/swiperShoes2.png"
+    },
+    {
+      "title": "Blazer",
+      "url": "./src/images/swiperShoes.png"
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+}
