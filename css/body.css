@@ -604,10 +604,10 @@
         object-fit: cover;
         object-position: center center;
     }
-    main.main>section.mainPic>div>div.mainPics1{
+    main.main>section.mainPic>div>div.mainPics{
         position: relative;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -617,7 +617,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -625,7 +625,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -648,20 +648,7 @@
     main.main>section.mainPic>div>div>div>button.picBtn:hover{
         background-color: #bbbbbd;
     }
-    main.main>section.mainPic>div>div.mainPics2{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -669,27 +656,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 22px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -697,27 +671,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 22px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -725,7 +686,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1088,10 +1049,10 @@
         object-fit: cover;
         object-position: center center;
     }
-    main.main>section.mainPic>div>div.mainPics1{
+    main.main>section.mainPic>div>div.mainPics{
         position: relative;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -1101,7 +1062,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1109,7 +1070,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1132,20 +1093,7 @@
     main.main>section.mainPic>div>div>div>button.picBtn:hover{
         background-color: #bbbbbd;
     }
-    main.main>section.mainPic>div>div.mainPics2{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1153,27 +1101,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 28px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1181,27 +1116,14 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
         font-size: 28px;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 40px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1209,7 +1131,7 @@
         font-weight: 600;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1584,10 +1506,10 @@
         object-fit: cover;
         object-position: center center;
     }
-    main.main>section.mainPic>div>div.mainPics1{
+    main.main>section.mainPic>div>div.mainPics{
         position: relative;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns{
         position: absolute;
         width: 100%;
         height: 30%;
@@ -1597,7 +1519,7 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1605,7 +1527,7 @@
         font-weight: 500;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics1>div.picBtn1>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1629,20 +1551,7 @@
     main.main>section.mainPic>div>div>div>button.picBtn:hover{
         background-color: #bbbbbd;
     }
-    main.main>section.mainPic>div>div.mainPics2{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 25px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1650,7 +1559,7 @@
         font-weight: 500;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics2>div.picBtn2>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1658,23 +1567,10 @@
         color: var(--bg-color);
         font-weight: 600;
     }
-    main.main>section.mainPic>div>div.mainPics3{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics3>img{
+    main.main>section.mainPic>div>div.mainPics:nth-of-type(3)>img{
         object-position: left center;
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 25px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1682,7 +1578,7 @@
         font-weight: 500;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics3>div.picBtn3>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
@@ -1690,20 +1586,7 @@
         color: var(--bg-color);
         font-weight: 600;
     }
-    main.main>section.mainPic>div>div.mainPics4{
-        position: relative;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4{
-        position: absolute;
-        width: 100%;
-        height: 30%;
-        left: 0;
-        bottom: 0;
-        padding: 30px 0 0 25px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.miniText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.miniText{
         width: 100%;
         height: 20px;
         line-height: 30px;
@@ -1711,7 +1594,7 @@
         font-weight: 500;
         color: var(--bg-color);
     }
-    main.main>section.mainPic>div>div.mainPics4>div.picBtn4>div.bigText{
+    main.main>section.mainPic>div>div.mainPics>div.picBtns>div.bigText{
         width: 100%;
         height: 60px;
         line-height: 60px;
